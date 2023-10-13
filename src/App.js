@@ -7,6 +7,8 @@ import StateWithObjects from "./Components/StateWithObjects";
 
 import BasicForm from "./Components/BasicForm";
 
+import StateWithArray from "./Components/StateWithArray";
+
 function App() {
 
 
@@ -15,7 +17,8 @@ function App() {
             {/* <StatesBasics /> */}
             {/* <Counter /> */}
             {/* <StateWithObjects /> */}
-            <BasicForm />
+            {/* <BasicForm /> */}
+            <StateWithArray />
        
         </div>
     );

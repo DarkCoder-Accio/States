@@ -4,6 +4,7 @@ import React,{useState} from "react";
 const BasicForm = () => {
 
     let [name, setName] = useState("")
+    let [btnClick, setBtnClick] = useState(false)
 
     // console.log("name",name)
 
@@ -15,13 +16,26 @@ const BasicForm = () => {
         
     }
 
+    function handleSubmit(){
+
+        setBtnClick(true)
+    }
+
     return(
         <div>
              <input type="text" placeholder="Enter your name" 
               onChange = {updateName} 
              />
-             <button> Submit </button>
-             <p> {name} </p>
+
+             <button onClick={handleSubmit}> Submit </button>
+
+             {/* {
+                btnClick == true && <p> {name} </p>
+             } */}
+
+             {
+                btnClick==true? <p> {name} </p> : ""
+             }
         </div>
     )
 }
