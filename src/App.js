@@ -9,6 +9,10 @@ import BasicForm from "./Components/BasicForm";
 
 import StateWithArray from "./Components/StateWithArray";
 
+import FormValidation from "./Components/FormValidation";
+
+import "./style.css"
+
 function App() {
 
 
@@ -18,7 +22,8 @@ function App() {
             {/* <Counter /> */}
             {/* <StateWithObjects /> */}
             {/* <BasicForm /> */}
-            <StateWithArray />
+            {/* <StateWithArray /> */}
+            <FormValidation />
        
         </div>
     );
