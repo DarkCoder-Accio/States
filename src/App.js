@@ -11,6 +11,8 @@ import StateWithArray from "./Components/StateWithArray";
 
 import FormValidation from "./Components/FormValidation";
 
+import LazyInitilization from "./Components/LazyInitilization";
+
 import "./style.css"
 
 function App() {
@@ -23,7 +25,8 @@ function App() {
             {/* <StateWithObjects /> */}
             {/* <BasicForm /> */}
             {/* <StateWithArray /> */}
-            <FormValidation />
+            {/* <FormValidation /> */}
+            <LazyInitilization />
        
         </div>
     );
