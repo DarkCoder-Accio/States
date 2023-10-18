@@ -13,6 +13,8 @@ import FormValidation from "./Components/FormValidation";
 
 import LazyInitilization from "./Components/LazyInitilization";
 
+import AsynStates from "./Components/AsynStates";
+
 import "./style.css"
 
 function App() {
@@ -26,7 +28,9 @@ function App() {
             {/* <BasicForm /> */}
             {/* <StateWithArray /> */}
             {/* <FormValidation /> */}
-            <LazyInitilization />
+            {/* <LazyInitilization /> */}
+
+            <AsynStates />
        
         </div>
     );
